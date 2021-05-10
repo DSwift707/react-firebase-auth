@@ -1,3 +1,10 @@
+:root {
+  --primaryGreen: #082b16;
+  
+}
+body{
+  padding: unset !important;
+}
 .App {
   text-align: center;
 }
@@ -30,4 +37,89 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-header {
+  height: 50px;
+  width: 100%;
+  color: #082b16;
+  box-shadow: 0px 3px 3px #9b9b9b;
+}
+h1.main-title {
+  display: inline-block;
+  height: 50px;
+  margin: unset;
+  vertical-align: middle;
+  padding-left: 4%;
+}
+button.logout-button {
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+  margin-top: 6px;
+  margin-right: 4%;
+}
+.main-panel {
+  overflow: hidden;
+  height: calc(100vh - 50px);
+}
+
+button.logout-button {
+  display: inline-block;
+  float: right;
+  vertical-align: top;
+}
+button.side-button {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 12px;
+  margin-left: 10px;
+}
+
+.tree-marker{
+  width: 5px;
+  height: 5px;
+  border-radius: 10px; 
+  background:transparent;
+  overflow: hidden;
+  border: 1px solid red;
+}
+.map-container {
+  width: 50%;
+  height: calc(100vh - 50px);
+  overflow: hidden;
+  display: inline-block;
+}
+.input-container {
+  padding: 0px 20px;
+  width: calc(50% - 40px);
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.allow-edit-false {
+  pointer-events: none;
+  opacity: .5;
+}
+.select-existing {
+  margin-top: 16px;
+  margin-right: 40px;
+}
+.div-bars {
+  display: inline-block;
+  margin: 0px 40px 0px 0px;
+  font-size: 31px;
+  vertical-align: middle;
+  font-weight: 100;
+  color: #9b9b9b;
+}
+.select-existing {
+  margin-right: 40px;
+  min-width: 200px;
+}
+h2.info-header {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--primaryGreen);
+  margin-bottom: unset;
 }
