@@ -83,6 +83,7 @@ button.side-button {
   background:transparent;
   overflow: hidden;
   border: 1px solid red;
+  transition: height .2s, width .2s, margin .2s;
 }
 .map-container {
   width: 50%;
@@ -122,4 +123,28 @@ h2.info-header {
   font-weight: 500;
   color: var(--primaryGreen);
   margin-bottom: unset;
+}
+ul.cluster-list {
+  margin: unset;
+  padding: unset;
+  list-style: none;
+  width: 100%;
+}
+.coordinate-detail {
+  display: inline-block;
+}
+ul.cluster-list li {
+  padding: 5px 10px;
+
+}
+.coordinate-detail.lat-lng {
+  min-width: 200px;
+  margin-left: 20px;
+  vertical-align: text-bottom;
+}
+.pin-locate {
+  cursor: pointer;
+}
+.pin-locate:hover {
+  color: green;
 }

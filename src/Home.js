@@ -1,7 +1,6 @@
 import React, { useContext } from "react";
 import app from "./base";
 import { AuthContext } from "./Auth";
-import PinTree from "./components/PinTree";
 import SimpleMap from "./components/GoogleMap";
 import { Button } from "@material-ui/core";
 
